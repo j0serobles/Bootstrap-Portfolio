@@ -53,8 +53,27 @@ background: #4aaaa5;
     height:200px; */
 }
 
+  .overlay-anchor {
+    max-width: 200px;
+    text-decoration: none;
+    background: #4aaaa5;
+    color: #dddddd; 
+    position:relative;
+    top: -40px;
+  } 
+
 .footer {
     color: #ffffff;
     color: #cccccc;
     background: #666666;
+}
+
+.overlay-anchor a {
+    background: #4aaaa5;
+    color: #dddddd; 
+ }
+
+ .btn-primary { 
+    background-color: #4aaaa5;
+    border-radius:0px;
 }

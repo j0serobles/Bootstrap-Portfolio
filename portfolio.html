@@ -1,21 +1,169 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <!DOCTYPE html>
+        <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+        <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+        <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+        <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+                <meta charset="utf-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <title></title>
+                <meta name="description" content="">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" href="">
+                <meta charset="utf-8">
+                <title></title>
+                <link rel="stylesheet" href="resets.css">
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+                <link rel="stylesheet" href="style.css">
     </head>
+    
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+      <header>
+          
+        <div class="container pl-0">
+            
+            <!-- A Standard navbar that becomes vertical on small screens 
+              -- To do: Use the collapsable navbar from the bootstrap site (hamburger menu) 
+              -->
+            <nav class="navbar navbar-expand-sm py-0 px-0">
+                <!-- Brand -->
+                <a class="navbar-brand logo py-4 px-3 font-weight-bold" href="#">Jose Robles</a>
+                <!-- Navigation links UL -->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-reset" href="index.html">About</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-reset" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-reset" href="contact.html">Contact </a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+
+      </header>
+      
+      <!-- Main container -->
+      <section class="container main_container pt-1 mt-5">
+
+        <h1 class="pt-3">Portfolio</h1>
+
+            <section class="image_grid">
+
+                          
+                <div class="row mb-3 ml-0">
+                    
+                    <!-- Each picture fits in a column.  The number of columns is:
+                      -- 1 when viewport is <= 768px (.col-xs and .col-sm)  
+                      -- 2 between 769px and 992px (.col-md)
+                      -- 4 above 992px (.col-lg and .col-xl)
+                      -->
+                    <div class="col-12 col-md-6 col-xl-3" >
+                        <img class="img-fluid" src="assets/images/business-q-c-200-200-1.jpg" alt="Public Speaker Coach">
+                        <!-- Each text anchor is in a row, nested inside a parent col -->
+                        <div class="row overlay-anchor ml-0 pl-3">
+                            <div class="col-12 pl-0 ml-0 mx-auto">
+                                <a  href="#">Public Speaking Coach</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-md-4 col-xl-3">
+                        <img src="assets/images/business-q-c-200-200-6.jpg" alt="Office Space Mgr">
+                        <div class="row overlay-anchor ml-0 pl-3">
+                            <div class="col-12 pl-0">
+                                <a  href="#">Office Space Mgr</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-md-4 col-xl-3">
+                            <img src="assets/images/cats-q-c-200-200-1.jpg" alt="Cat and Mouse Game">
+                            <div class="row overlay-anchor ml-0 pl-3">
+                                <div class="col-12 pl-0">
+                                    <a  href="#">Cat and Mouse Game</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-md-4 col-xl-3">
+                                <img src="assets/images/fashion-q-c-200-200-5.jpg" alt="Fashion Designer">
+                                <div class="row overlay-anchor ml-0 pl-3">
+                                    <div class="col-12 pl-0">
+                                        <a  href="#">Fashion Designer</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                    
+                        <div class="col-12 col-md-6 col-md-4 col-xl-3">
+                                <img src="assets/images/nature-q-c-200-200-1.jpg" alt="Ant Colonizer">
+                                <div class="row overlay-anchor ml-0 pl-3">
+                                    <div class="col-12 pl-0">
+                                        <a  href="#">Ant Colonizer</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-md-4 col-xl-3">
+                                    <img src="assets/images/nature-q-c-200-200-4.jpg" alt="Trail Finder">
+                                    <div class="row overlay-anchor ml-0 pl-3">
+                                        <div class="col-12">
+                                            <a  href="#">Trail Finder</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-6 col-md-4 col-xl-3">
+                                        <img src="assets/images/technics-q-c-200-200-4.jpg" alt="Capacitors Are Fun!">
+                                        <div class="row overlay-anchor ml-0 pl-3">
+                                            <div class="col-12">
+                                                <a  href="#">Capacitors Are Fun!</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-md-6 col-md-4 col-xl-3">
+                                            <img src="assets/images/technics-q-c-200-200-8.jpg" alt="Electronic Design">
+                                            <div class="row overlay-anchor ml-0 pl-3">
+                                                <div class="col-12">
+                                                    <a  href="#">Electronic Design</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                            <div class="col-12 col-md-6 col-md-4 col-xl-3">
+                                    <img src="assets/images/transport-q-c-200-200-4.jpg" alt="London Planner">
+                                    <div class="row overlay-anchor ml-0 pl-3">
+                                        <div class="col-12">
+                                            <a  href="#">London Planner</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                        </div> <!-- End of row -->
+                    
+                </section> <!-- End Image grid section-->
+      </section>
         
+    
+      
+        <div class="footer navbar navbar-default navbar-fixed-bottom mt-auto py-3 justify-content-center">
+            <!-- <div class="container"> -->
+              <small>Copyright (c) 2019 J Robles.  All rights reserved.</small>
+            <!-- </div>   -->
+        </div>
+
+      
         <script src="" async defer></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 </html>
